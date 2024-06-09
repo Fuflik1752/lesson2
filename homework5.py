@@ -1,6 +1,6 @@
-immutable_var = ("name", "age", "height")
+immutable_var = ("name", "age", 4, "height")
 print(immutable_var)
-mutable_list = ["name", "age", "height"]
+mutable_list = ["name", "age", 4, "height"]
 print(mutable_list)
 mutable_list[0] = "weight"
 print(mutable_list)
